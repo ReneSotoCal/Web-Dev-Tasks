@@ -1,0 +1,80 @@
+/* Soto Repair Cover Page Styling */
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    background-image: url('VintageCar2.jpg');
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    color: darkorange;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5em;
+    align-self: flex-start;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;    
+    align-items: flex-start;
+    margin-bottom: 50px;
+
+}
+button {
+    text-decoration-line: none;
+}
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    text-align: center;
+    border-radius: 2em;
+    border: none;
+    background-color: darkorange;
+    padding: 1em 2em;
+    margin-right: 3em;
+    margin-left: 3em;
+    font-size: 1em;
+    box-shadow: 0 6px 8px 0;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #FF4F00;
+    padding: 1.1em 2.1em;
+    box-shadow: 0 8px 12px 0;
+}
+
+#new-cust-bt {
+    padding-left: 3em;
+    padding-right: 3em 
+}
+
+footer {
+    position: absolute;
+    bottom: 10%;
+    left: 45%; 
+
+    font-size: 1.4rem;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: blue;
+}
