@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Virtual Terrarium></title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <!-- Use defer when importing an external JavaScript file. Allows the script to only execute after the html has loaded -->
+        <!-- Alternatively, one can use the async attribute to execute the js code as the html is parsing -->
+    </head>
+    <body>
+        <h1>My Terrarium</h1>
+        <!-- Left container that holds the first 7 plants -->
+        <div id="left" class="container">
+            <div class="plant-holder">
+                <img class="plant" alt="plant with thin stems and small circular leaves" id="plant1" src="./images/images/plant1.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="dark green plant with long leaves coming from the epicenter" id="plant2" src="./images/images/plant2.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="pink lotus" id="plant3" src="./images/images/plant3.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="green plant with small fruits or nuts scattered between the leaves" id="plant4" src="./images/images/plant4.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="pale blue aquatic plant" id="plant5" src="./images/images/plant5.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="pale green aquatic plant" id="plant6" src="./images/images/plant6.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="bowl shaped plant with green lobe-like leaves " id="plant7" src="./images/images/plant7.png" />
+            </div>
+        </div>
+        <!-- Placing a container between the 2 plant containers to box it in and style -->
+         <div id="terrarium">
+                <div class="jar-top"></div>
+                <div class="jar-walls">
+                    <div class="jar-glossy-short"></div>
+                    <div class="jar-glossy-long"></div>
+                </div>
+                <div class="dirt"></div>
+                <div class="jar-bottom"></div>
+            </div>
+            <!-- Right container for the plants -->
+            <div id="right" class="container">
+            <div class="plant-holder">
+                <img class="plant" alt="group of cacti with an orange flower on top" id="plant8" src="./images/images/plant8.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="short, pale-green leaved plant" id="plant9" src="./images/images/plant9.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="plant with wide, long leaves with pointed edges coming from the seed" id="plant10" src="./images/images/plant10.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="striated cactus" id="plant11" src="./images/images/plant11.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="small plant with long thin leaves extending from a point" id="plant12" src="./images/images/plant12.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="lobed, green cactus" id="plant13" src="./images/images/plant13.png" />
+            </div>
+            <div class="plant-holder">
+                <img class="plant" alt="round, light-colored cactus" id="plant14" src="./images/images/plant14.png" />
+            </div>
+        </div>
+    </body>
+</html>
