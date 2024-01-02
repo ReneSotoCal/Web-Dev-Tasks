@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Typing game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+  <h1 class="game-item">Typing game!</h1>
+  <h3 class="game-item">Practice your typing skills with a quote from Sherlock Holmes. Click **start** to begin!</h3>
+  <p id="quote" class="game-item"></p> <!-- This will display our quote -->
+  <!-- <p id="message" ></p> This will display any status messages -->
+  <div class="bt-container">
+    <input type="text" aria-label="current word" id="typed-value" autocomplete="off"/> <!-- The textbox for typing -->
+    <button type="button" id="start">Start</button> <!-- To start the game -->
+  </div>
+  </div>
+  <div id="success-modal">
+    <div class="close-container">
+      <button id="close">&times;</button>
+    </div>
+    <h3 id="message"></h3>
+  </div>
+  <div id="overlay"></div>
+  <script src="script.js"></script>
+</body>
+</html>
